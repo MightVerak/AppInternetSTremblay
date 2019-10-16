@@ -1,0 +1,48 @@
+2019-10-15 21:47:36 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'librairiestandard.tags' doesn't exist in C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php on line 132
+Stack Trace:
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(98): Cake\Database\Schema\Collection->_reflect('Column', 'tags', Array, Object(Cake\Database\Schema\TableSchema))
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(62): Cake\Database\Schema\Collection->describe('tags', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\ORM\Table.php(559): Cake\Database\Schema\CachedCollection->describe('tags')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\ORM\Table.php(684): Cake\ORM\Table->getSchema()
+#4 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#5 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#6 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'tags', 'Tags')
+#7 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Tags')
+#8 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\BakeShell.php(279): Bake\Shell\Task\ModelTask->main('Tags')
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(64): Bake\Shell\BakeShell->Bake\Shell\{closure}('tags', 0)
+#10 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\BakeShell.php(280): Cake\Collection\Collection->each(Object(Closure))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Console\Shell.php(517): Bake\Shell\BakeShell->all('tags')
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(385): Cake\Console\Shell->runCommand(Array, true)
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#14 C:\Ampps\www\Tp1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#15 {main}
+
+
+Caused by: [PDOException] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'librairiestandard.tags' doesn't exist in C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php on line 38
+Stack Trace:
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Statement\MysqlStatement.php(38): PDOStatement->execute(NULL)
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Connection.php(349): Cake\Database\Statement\MysqlStatement->execute()
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Connection.php(352): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#4 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Connection.php(301): Cake\Database\Connection->query('SHOW FULL COLUM...')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Core\Retry\CommandRetry.php(67): Cake\Database\Connection->Cake\Database\{closure}()
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Connection.php(305): Cake\Core\Retry\CommandRetry->run(Object(Closure))
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(130): Cake\Database\Connection->execute('SHOW FULL COLUM...', Array)
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(98): Cake\Database\Schema\Collection->_reflect('Column', 'tags', Array, Object(Cake\Database\Schema\TableSchema))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(62): Cake\Database\Schema\Collection->describe('tags', Array)
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\ORM\Table.php(559): Cake\Database\Schema\CachedCollection->describe('tags')
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\ORM\Table.php(684): Cake\ORM\Table->getSchema()
+#12 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#13 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'tags', 'Tags')
+#15 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\Task\ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Tags')
+#16 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\BakeShell.php(279): Bake\Shell\Task\ModelTask->main('Tags')
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Collection\CollectionTrait.php(64): Bake\Shell\BakeShell->Bake\Shell\{closure}('tags', 0)
+#18 C:\Ampps\www\Tp1\vendor\cakephp\bake\src\Shell\BakeShell.php(280): Cake\Collection\Collection->each(Object(Closure))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Console\Shell.php(517): Bake\Shell\BakeShell->all('tags')
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(385): Cake\Console\Shell->runCommand(Array, true)
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Console\CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#22 C:\Ampps\www\Tp1\bin\cake.php(12): Cake\Console\CommandRunner->run(Array)
+#23 {main}
+
+

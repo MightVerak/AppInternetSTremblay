@@ -1,0 +1,517 @@
+2019-10-15 16:47:39 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 17:05:03 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 17:12:35 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 17:44:26 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 17:51:53 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 17:53:40 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(123): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 17:55:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class other could not be found. (C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:104)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 17:55:46 Error: [Cake\Routing\Exception\MissingControllerException] Controller class other could not be found. (C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ControllerFactory.php:104)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(89): Cake\Http\ControllerFactory->missingController(Object(Cake\Http\ServerRequest))
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(37): Cake\Http\ControllerFactory->getControllerClass(Object(Cake\Http\ServerRequest))
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(91): Cake\Http\ControllerFactory->create(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#4 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#14 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 17:59:46 Error: Fatal Error (4): syntax error, unexpected '[', expecting '(' in [C:\Ampps\www\Tp1\config\routes.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 228
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2019-10-15 17:59:46 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '[', expecting '(' in C:\Ampps\www\Tp1\config\routes.php on line 65
+Stack Trace:
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Ampps\\www\\Tp...', 65)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2019-10-15 17:59:49 Error: Fatal Error (4): syntax error, unexpected '[', expecting '(' in [C:\Ampps\www\Tp1\config\routes.php, line 65]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 228
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2019-10-15 17:59:49 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '[', expecting '(' in C:\Ampps\www\Tp1\config\routes.php on line 65
+Stack Trace:
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Ampps\\www\\Tp...', 65)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2019-10-15 18:17:49 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(123): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-15 21:45:31 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Middleware\CsrfProtectionMiddleware.php(119): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\Middleware\CsrfProtectionMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(168): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#18 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#19 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#20 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#21 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#22 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#23 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-16 00:39:48 Error: Fatal Error (4): syntax error, unexpected end of file in [C:\Ampps\www\Tp1\config\routes.php, line 127]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 228
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 109
+[main] - [internal], line ??
+
+
+
+2019-10-16 00:39:48 Error: [Cake\Error\FatalErrorException] syntax error, unexpected end of file in C:\Ampps\www\Tp1\config\routes.php on line 127
+Stack Trace:
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(109): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\Ampps\\www\\Tp...', 127)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2019-10-16 19:29:24 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-16 19:38:34 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-16 19:38:37 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-16 19:38:38 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-16 19:39:07 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-16 19:39:10 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-16 19:40:29 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
+2019-10-16 19:40:30 Error: [Cake\Http\Exception\NotFoundException] Please replace src/Template/Pages/home.ctp with your own version or re-enable debug mode. (C:\Ampps\www\Tp1\src\Template\Pages\home.ctp:25)
+#0 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1418): include()
+#1 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(1379): Cake\View\View->_evaluate('C:\\Ampps\\www\\Tp...', Array)
+#2 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\View\View.php(879): Cake\View\View->_render('C:\\Ampps\\www\\Tp...')
+#3 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(795): Cake\View\View->render('home', NULL)
+#4 C:\Ampps\www\Tp1\src\Controller\PagesController.php(60): Cake\Controller\Controller->render('home')
+#5 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Controller\Controller.php(609): App\Controller\PagesController->display('home')
+#6 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(120): Cake\Controller\Controller->invokeAction()
+#7 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(94): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PagesController))
+#8 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\BaseApplication.php(234): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#9 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#10 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(162): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#11 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#12 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#13 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#14 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(96): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#15 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response), Object(Cake\Http\Runner))
+#16 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#17 C:\Ampps\www\Tp1\vendor\cakephp\cakephp\src\Http\Server.php(97): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Cake\Http\ServerRequest), Object(Cake\Http\Response))
+#18 C:\Ampps\www\Tp1\webroot\index.php(40): Cake\Http\Server->run()
+#19 {main}
+Request URL: /
+Referer URL: http://localhost/
+
+
