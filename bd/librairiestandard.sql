@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.6.6
--- https://www.phpmyadmin.net/
+-- version 4.4.15.9
+-- https://www.phpmyadmin.net
 --
--- Client :  127.0.0.1:3306
--- Généré le :  Mar 15 Octobre 2019 à 18:02
--- Version du serveur :  5.6.35
--- Version de PHP :  7.1.1
+-- Client :  localhost
+-- Généré le :  Mer 16 Octobre 2019 à 20:19
+-- Version du serveur :  5.6.37
+-- Version de PHP :  5.6.31
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -23,10 +23,22 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `articles_files`
+--
+
+CREATE TABLE IF NOT EXISTS `articles_files` (
+  `id` int(11) NOT NULL,
+  `article_id` int(11) NOT NULL,
+  `file_id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `books_categories`
 --
 
-CREATE TABLE `books_categories` (
+CREATE TABLE IF NOT EXISTS `books_categories` (
   `rental_id` int(11) NOT NULL,
   `categories_id` int(11) NOT NULL,
   `book_title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -41,7 +53,7 @@ CREATE TABLE `books_categories` (
 -- Structure de la table `categories`
 --
 
-CREATE TABLE `categories` (
+CREATE TABLE IF NOT EXISTS `categories` (
   `id` int(11) NOT NULL,
   `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `created` datetime(4) NOT NULL,
@@ -51,15 +63,32 @@ CREATE TABLE `categories` (
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `files`
+--
+
+CREATE TABLE IF NOT EXISTS `files` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `path` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `created` datetime NOT NULL,
+  `modified` datetime NOT NULL,
+  `status` tinyint(4) NOT NULL DEFAULT '1' COMMENT '1 = Active, 0 = Inactive'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `rentals`
 --
 
-CREATE TABLE `rentals` (
+CREATE TABLE IF NOT EXISTS `rentals` (
   `id` int(11) NOT NULL,
   `rental_id` int(111) NOT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `date_rental` date NOT NULL,
   `date_return` date NOT NULL,
   `amount_fine` double NOT NULL,
+  `slug` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `created` datetime(4) NOT NULL,
   `modified` datetime(4) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
@@ -70,7 +99,7 @@ CREATE TABLE `rentals` (
 -- Structure de la table `users`
 --
 
-CREATE TABLE `users` (
+CREATE TABLE IF NOT EXISTS `users` (
   `id` int(11) NOT NULL,
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
@@ -84,6 +113,12 @@ CREATE TABLE `users` (
 --
 
 --
+-- Index pour la table `articles_files`
+--
+ALTER TABLE `articles_files`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Index pour la table `books_categories`
 --
 ALTER TABLE `books_categories`
@@ -95,6 +130,12 @@ ALTER TABLE `books_categories`
 -- Index pour la table `categories`
 --
 ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `files`
+--
+ALTER TABLE `files`
   ADD PRIMARY KEY (`id`);
 
 --
